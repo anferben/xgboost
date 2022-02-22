@@ -1,0 +1,20 @@
+# conda env create --file environment.yml
+name: _xgb
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - fs
+  - jupyter
+  - jupyterlab
+  - pathlib
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - pyprojroot
+  - python=3.8
+  - pip:
+    - pyhere
+    
